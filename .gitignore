@@ -1,0 +1,8 @@
+*.log
+*.db
+/target
+/big
+/test-output
+.classpath
+.project 
+.settings
