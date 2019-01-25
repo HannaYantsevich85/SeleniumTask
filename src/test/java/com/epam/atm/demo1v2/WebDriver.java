@@ -36,7 +36,7 @@ public class WebDriver {
 		WebElement emailInput = driver.findElement(By.cssSelector("input#identifierId.whsOnd.zHQkBf"));
 
 		// emailInput = driver.findElement(By.id("profileIdentifier"));
-		emailInput.sendKeys("a.tsihomirova@gmail.com");
+		emailInput.sendKeys("HannaTest34@gmail.com");
 
 		WebElement NextButton = driver.findElement(By.id("identifierNext"));
 		NextButton.click();
@@ -46,7 +46,7 @@ public class WebDriver {
 
 		Thread.sleep(1000);
 		WebElement passwordInput = driver.findElement(By.xpath("//div[@class='Xb9hP']/input[@type='password']"));
-		passwordInput.sendKeys("$ghbjhbntns$1985gmail");
+		passwordInput.sendKeys("PasswordPassword");
 
 		WebElement passwordButton = driver.findElement(By.id("passwordNext"));
 		passwordButton.click();
